@@ -8,9 +8,9 @@ function App() {
 
   const [token, setToken] = useState();
 
-  if(!token) {
-    return(<div className='ip'> <Login setToken={setToken} /> </div>);
-  }
+  //if(!token) {
+   // return(<div className='ip'> <Login setToken={setToken} /> </div>);
+  //}
 
   return (
 
